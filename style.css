@@ -12,6 +12,8 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+/* NavBar */
 .nav ul{
     margin: 0;
 }
@@ -56,4 +58,31 @@ html, body{
 }
 .name-large{
     font-size: 9em;
+}
+
+/* FooterNav */
+
+.main-footer {
+    background-color: lightgreen;
+    color: white;
+    padding: .25em 0;
+} 
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+    
+}
+.footer-nav li{
+    padding: 0 .5em;
+    
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
 }
