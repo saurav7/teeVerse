@@ -180,3 +180,29 @@ h4{
 .col-4 p{
     font-size: 14px;
 }
+
+
+/* About */
+.content-section{
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: Montserrat ;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-image{
+    float: left;
+    height: 200px;
+    width: 200;
+    margin: 15px;
+}
